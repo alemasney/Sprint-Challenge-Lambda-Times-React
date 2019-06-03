@@ -12,7 +12,7 @@ const Tabs = props => {
             
             {props.tabs.map(tab => (
               <Tab key={tab} tab={tab} selectTabHandler={props.selectTabHandler} selectedTab={props.selectedTab} />
-            ))};
+            ))}
       </div>
     </div>
   );
