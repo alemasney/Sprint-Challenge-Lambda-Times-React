@@ -57,8 +57,6 @@ export default class Content extends Component {
         })
         return filtered;
      }
-
-    return this.state.cards;
   };
 
   render() {

@@ -67,19 +67,6 @@ const ContainerCenter = styled.div`
   }
 `;
 
-const ContainerCenterSpan = styled.span`
-    cursor: pointer;
-    margin-right: 5%;
-
-    &:last-child {
-      margin-right: 0;
-    }
-
-    &:hover {
-      text-decoration: underline;
-    }
-`;
-
 const ContainerRight = styled.div`
      display: flex;
     justify-content: flex-end;
